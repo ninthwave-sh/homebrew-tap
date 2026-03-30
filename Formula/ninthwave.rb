@@ -11,21 +11,21 @@ class Ninthwave < Formula
   desc "Parallel AI coding orchestration — human-sized PRs"
   homepage "https://github.com/ninthwave-sh/ninthwave"
   license "Apache-2.0"
-  version "0.3.6"
+  version "0.3.7"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ninthwave-sh/ninthwave/releases/download/v0.3.6/ninthwave-0.3.6-darwin-arm64.tar.gz"
-      sha256 "a2f2b5cb851cd642dd6676f214dd42399ea286d2dd18743f105e88f7836dd64d"
+      url "https://github.com/ninthwave-sh/ninthwave/releases/download/v0.3.7/ninthwave-0.3.7-darwin-arm64.tar.gz"
+      sha256 "828436ef96b5dca2f9eb3778a81fcd84786474798fd7f159d97c61b33f24afd4"
     else
-      url "https://github.com/ninthwave-sh/ninthwave/releases/download/v0.3.6/ninthwave-0.3.6-darwin-x64.tar.gz"
-      sha256 "24273b265c183039f4e06a55280d71b835ebdf388474bea12a2d6d6803a57c35"
+      url "https://github.com/ninthwave-sh/ninthwave/releases/download/v0.3.7/ninthwave-0.3.7-darwin-x64.tar.gz"
+      sha256 "668ea132bc88b5f51e09cd7dd4093e1e0ea2dd3e5c084defb31dd1149228105e"
     end
   end
 
   on_linux do
-    url "https://github.com/ninthwave-sh/ninthwave/releases/download/v0.3.6/ninthwave-0.3.6-linux-x64.tar.gz"
-    sha256 "45943111d4064df5a39194932939cabbbd83e3c6811782019a143b78af796cbb"
+    url "https://github.com/ninthwave-sh/ninthwave/releases/download/v0.3.7/ninthwave-0.3.7-linux-x64.tar.gz"
+    sha256 "1e9d88c274a7233bd37eca298310e11f8005478286ea17749296ac93b241cd4b"
   end
 
   def install
